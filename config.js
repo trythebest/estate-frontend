@@ -1,0 +1,1 @@
+export const backendUrl = "https://estate-7hfc.onrender.com"

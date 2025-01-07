@@ -1,0 +1,26 @@
+.whole{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    background:rgb(255, 255, 255);
+    position: relative;
+    top: 25rem;
+    left: 2rem;
+    border-radius: 10rem;
+    
+}
+.location{
+    width: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    background:rgb(255, 255, 255);
+    margin: 10px;
+   
+}
+.customer{
+    width: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    background:rgb(255, 255, 255);
+    margin: 10px;
+}

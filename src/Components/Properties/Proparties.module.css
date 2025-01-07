@@ -1,0 +1,105 @@
+.wholecart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card{
+    width: 20rem;
+    gap: 3rem;
+    margin-bottom: 10px;
+}
+.card>div {
+   
+    
+   background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  
+  
+  }
+  .left>div:nth-child(1) {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    height: 10vh;
+    background-color: rgb(42, 163, 163);
+    text-align: center;
+  }
+  .left>div:nth-child(2) {
+    font-size: large;
+    font-weight: bold;
+  text-align: center;
+    
+  }
+  .left>div:nth-child(3) {
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+  }
+  .button {
+   
+    display: flex;
+    flex-direction: column;
+  }
+  .button>button {
+    justify-self: center;
+    align-self: center;
+    border: none;
+    width: 7rem;
+    border-radius: 1rem;
+    background-color:rgb(84, 165, 158);
+  }
+  .left>button:hover {
+    cursor: pointer;
+  }
+ 
+  .left{
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .right>img {
+    
+width: 100%;
+  background:aliceblue;
+  }
+
+
+
+  
+  .nav {
+    position: relative;
+    top: 10px; 
+    left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%; 
+    
+    padding: 10px;
+    z-index: 1000; 
+  }
+  
+  .navlink>a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    
+  }
+  
+ 
+  .navlink>a:hover {
+    color: #555; 
+  
+  }
+  .navlink {
+    display: flex;
+    gap: 2rem; 
+    align-items: center; 
+  }
+  @media screen and (max-width: 853px) {
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
